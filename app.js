@@ -18,5 +18,6 @@ https.get('https://coderbyte.com/api/challenges/json/age-counting', (resp) => {
     }
 
     console.log(keyArray.toString());
+    console.log("Length: " + keyArray.length);
   });
 });
